@@ -1,9 +1,9 @@
 <html>
   <head>
-     <script type="text/javascript" src="/home/bsuser1/second-html/new_employ.js"></script>
+     <script type="text/javascript" src="/home/bsuser1/Assignment/Html _and_java_files/Js_Files/inline_validation_js/new_employ.js"></script>
   </head>
   <body>
-    <form name="myform" action="/home/bsuser1/second-html/employ.html" onsubmit="return validateForm();" method="post">
+    <form name="myform" action="/home/bsuser1/Assignment/Html _and_java_files/Html_Files/inline_validation/employ.html" onsubmit="return validateForm();" method="post">
       First name:<br>
       <input type="text" name="firstname" id="firstname" onblur=" return validateFirstName('firstname')">
       <span id="firstnameError" style="display: none;">You can only use alphabetic characters, hyphens and apostrophes</span>
@@ -24,6 +24,7 @@
       Date-of-birth:<br>
        Day:
         <select> 
+          <option selected disabled="select day">select day</option>
           <option value="1">1</option>
           <option value="2">2</option>
           <option value="3">3</option>
@@ -58,6 +59,7 @@
        </select>
       Month:
        <select> 
+        <option selected disabled="select day">select month</option>
          <option value="1">1</option>
          <option value="2">2</option>
          <option value="3">3</option>
